@@ -1,0 +1,54 @@
+
+## Clients and servers
+
+Servers are hosts that have software installed that enables them to provide information and services, like e-mail or web pages, to other hosts on the network.
+
+Clients are hosts that have software installed that enables them to request and display the information obtained from the server.
+
+# LAN and WAN
+
+
+An individual network usually spans a single geographical area, providing services and applications to people within a common organizational structure, such as a single business, campus or region. This type of network is called a Local Area Network (LAN).
+
+
+Individual organizations usually lease connections through a telecommunications service provider network. These networks that connect LANs in geographically separated locations are referred to as Wide Area Networks (WANs).
+
+# Protocols
+
+Networking protocol suites describe processes such as:
+*T he format or structure of the message
+* The method by which networking devices share information about pathways with other networks
+* How and when error and system messages are passed between devices
+* The setup and termination of data transfer sessions
+
+# TCP/IP model
+Description:
+
+* Application - Creation of data at the Application layer of the originating source end device
+
+* Transport - Segmentation and encapsulation of data as it passes down the protocol stack in the source end device
+
+* Internet - Generation of the data onto the media at the Network Access layer of the stack
+
+* Network Access - Transportation of the data through the internetwork, which consists of media and any intermediary devices
+
+Although there is no universal naming convention for PDUs, in this course, the PDUs are named according to the protocols of the TCP/IP suite.
+
+* Data - The general term for the PDU used at the Application layer
+* Segment - Transport Layer PDU
+* Packet - Internetwork Layer PDU
+* Frame - Network Access Layer PDU
+* Bits - A PDU used when physically transmitting data over the medium
+
+
+# OSI model
+
+7. Application - Network process to application
+6. Presentation - Data representation, encryption and decryption, convert machine dependent data to machine independent data
+5. Session - Interhost communication, managing sessions between applications
+4. Transport - End-to-end connections, reliability and flow control
+Media
+3. Network - Path determination and logical addressing
+2. Data link - Physical addressing
+1. Physical - Media, signal and binary transmission
+

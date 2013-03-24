@@ -1,0 +1,12 @@
+# The Presentation Layer
+
+The Presentation layer has three primary functions:
+* Coding and conversion of Application layer data to ensure that data from the source device can be interpreted by the appropriate application on the destination device.
+* Compression of the data in a manner that can be decompressed by the destination device.
+* Encryption of the data for transmission and the decryption of data upon receipt by the destination.
+
+# The Session Layer
+
+http://robokassa.ru/en/http://robokassa.ru/en/As the name of the Session layer implies, functions at this layer create and maintain dialogs between source and destination applications. The Session layer handles the exchange of information to initiate dialogs, keep them active, and to restart sessions that are disrupted or idle for a long period of time. 
+
+Most applications, like web browsers or e-mail clients, incorporate functionality of the OSI layers 5, 6 and 7.

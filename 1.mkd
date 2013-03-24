@@ -1,0 +1,16 @@
+Communication tools:
+1) Instant Messaging
+2) Weblogs (blogs)
+3) Wikis
+4) Podcasting
+5) Collaboration Tools
+
+Network types:
+1) Multiple services-multiple networks
+2) Converged networks
+
+Basic characteristics for network architechture:
+1) Fault Tolerance
+2) Scalability
+3) Quality of Service (QoS)
+4) Security
