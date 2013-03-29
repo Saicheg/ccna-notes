@@ -1,0 +1,58 @@
+# Network layer
+
+# Purposes:
+* Addressing
+* Encapsulation
+* Routing
+* Decapsulation
+
+# Protocols implemented at the Network layer that carry user data include:
+* Internet Protocol version 4 (IPv4)
+* Internet Protocol version 6 (IPv6)
+* Novell Internetwork Packet Exchange (IPX)
+* AppleTalk
+* Connectionless Network Service (CLNS/DECNet)
+
+# IPv4 basic characteristics:
+* Connectionless
+* Best Effort (unreliable) - No overhead is used to guarantee packet delivery.
+* Media Independent - Operates independently of the medium carrying the data.
+
+Unreliable means simply that IP does not have the capability to manage, and recover from, undelivered or corrupt packets.
+
+# IPv4 header fields:
+* IP Source Address
+* IP Destination Address
+* Time-to-Live (TTL)
+* Type-of-Service (ToS)
+* Protocol
+* Fragment Offset
+
+
+# As shown in the figure, networks can be grouped based on factors that include:
+* Geographic location
+* Purpose
+* Ownership
+
+# Common issues with large networks are:
+* Performance degradation
+* Security issues
+* Address Management
+
+Hierarchical Network layer addresses work in much the same way. Layer 3 addresses supply the network portion of the address. Routers forward packets between networks by referring only to the part of the Network layer address that is required to direct the packet toward the destination network. 
+
+Routes in a routing table have three main features:
+* Destination network
+* Next-hop
+* Metric
+
+The router will do one of three things with the packet:
+* Forward it to the next-hop router
+* Forward it to the destination host
+* Drop it
+
+Common dynamic routing protocols are:
+* Routing Information Protocol (RIP)
+* Enhanced Interior Gateway Routing Protocol (EIGRP)
+* Open Shortest Path First (OSPF)
+

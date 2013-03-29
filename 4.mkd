@@ -1,0 +1,43 @@
+# Transport layer purposes:
+* Tracking Individual Conversations
+* Segmenting Data
+* Reassembling Segments
+* Identifying the Applications
+* Data Requirements Vary
+
+# Roles:
+* Establishing a Session
+* Reliable Delivery
+* Same Order Delivery
+* Flow Control
+
+# Transport Layer protocols:
+* User Datagram Protocol (UDP)
+* Transmission Control Protocol (TCP)
+
+# Port classes:
+* Well Known Ports (Numbers 0 to 1023)
+* Registered Ports (Numbers 1024 to 49151)
+* Dynamic or Private Ports (Numbers 49152 to 65535)
+
+UDP and TCP ports are different ports.
+
+# TCP session:
+* SYN:
+1) SEQ=100, SYN
+2) SEQ=300, ACK=101, SYN, ACK
+3) SEQ=101, ACK=301, ACK
+* FIN:
+1) FIN
+2) FIN+ACK
+3) ACK
+
+This Window Size field in the TCP header specifies the amount of data that can be transmitted before an acknowledgement must be received. 
+
+# UDP protocols:
+* Domain Name System (DNS)
+* Simple Network Management Protocol (SNMP)
+* Dynamic Host Configuration Protocol (DHCP)
+* Routing Information Protocol (RIP)
+* Trivial File Transfer Protocol (TFTP)
+* Online games

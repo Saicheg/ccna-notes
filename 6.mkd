@@ -1,0 +1,42 @@
+Within the address range of each IPv4 network, we have three types of addresses:
+
+* Network address - The address by which we refer to the network
+* Broadcast address - A special address used to send data to all hosts in the network
+* Host addresses - The addresses assigned to the end devices in the network
+
+In an IPv4 network, the hosts can communicate one of three different ways:
+
+* Unicast - the process of sending a packet from one host to an individual host
+* Broadcast - the process of sending a packet from one host to all hosts in the network
+* Multicast - the process of sending a packet from one host to a selected group of hosts
+
+Broadcast types:
+* The limited broadcast is used for communication that is limited to the hosts on the local network.
+* A directed broadcast is sent to all hosts on a specific network.
+
+# Ip adrres ranges:
+ 
+* Host Addresses 0.0.0.0 to 223.255.255.255
+* Multicast Addresses 224.0.0.0 to 224.0.0.255
+* Experimental Addresses 224.0.0.0 to 239.255.255.255
+
+
+# The private address blocks are:
+
+* 10.0.0.0 to 10.255.255.255 (10.0.0.0 /8)
+* 172.16.0.0 to 172.31.255.255 (172.16.0.0 /12)
+* 192.168.0.0 to 192.168.255.255 (192.168.0.0 /16)
+
+# Special ip addresses:
+* Network and Broadcast Addresses
+* Default Route(The use of this address also reserves all addresses in the 0.0.0.0 - 0.255.255.255 (0.0.0.0 /8) 
+* Loopback
+* Link-Local Addresses (IPv4 addresses in the address block 169.254.0.0 to 169.254.255.255 (169.254.0.0 /16) are designated as link-local addresses.)
+* TEST-NET Addresses The address block 192.0.2.0 to 192.0.2.255 (192.0.2.0 /24) is set aside for teaching and learning purposes
+
+# Network Classes
+* Class A Blocks 00000...
+* Class B Blocks 10000...
+* Class C Blocks 11000...
+* Class D Blocks 11100...
+* Class E Blocks 11110...
