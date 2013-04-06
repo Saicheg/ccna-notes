@@ -1,0 +1,35 @@
+Главное отличие свича от хаба:
+
+* В хабе обычная развязка для витых пар
+* В свиче ставить плата и он позволяет анализировать кадры. 
+
+The Data Link layer performs two basic services:
+* Allows the upper layers to access the media using techniques such as framing 
+* Controls how data is placed onto the media and is received from the media using techniques such as media access control and error detection
+
+Here, these words refer to the material that actually carries the signals representing the transmitted data. Media is the physical copper cable, optical fiber, or atmosphere through which the signals travel. In this chapter media does not refer to content programming such as audio, animation, television, and video as used when referring to digital content and multimedia.
+
+
+To support a wide variety of network functions, the Data Link layer is often divided into two sublayers: an upper sublayer and an lower sublayer. 
+* The upper sublayer defines the software processes that provide services to the Network layer protocols. ( Logical Link Control (LLC) places information in the frame that identifies which Network layer protocol is being used for the frame. This information allows multiple Layer 3 protocols, such as IP and IPX, to utilize the same network interface and media. )
+* The lower sublayer defines the media access processes performed by the hardware. ( Media Access Control (MAC) provides Data Link layer addressing and delimiting of data according to the physical signaling requirements of the medium and the type of Data Link layer protocol in use.)
+
+Engineering organizations that define open standards and protocols that apply to the Data Link layer include: 
+* International Organization for Standardization (ISO)
+* Institute of Electrical and Electronics Engineers (IEEE)
+* American National Standards Institute (ANSI)
+* International Telecommunication Union (ITU)
+
+There are two basic media access control methods for shared media: 
+* Controlled - Each node has its own time to use the medium 
+* Contention-based - All nodes compete for the use of the medium ( To prevent complete chaos on the media, these methods use a Carrier Sense Multiple Access (CSMA) process to first detect if the media is carrying a signal. If a carrier signal on the media from another node is detected, it means that another device is transmitting.  )
+
+Typical frame header fields include:
+* Start Frame field - Indicates the beginning of the frame
+* Source and Destination address fields - Indicates the source and destination nodes on the media
+* Priority/Quality of Service field - Indicates a particular type of communication service for processing
+* Type field - Indicates the upper layer service contained in the frame
+* Logical connection control field - Used to establish a logical connection between nodes 
+* Physical link control field - Used to establish the media link 
+* Flow control field - Used to start and stop traffic over the media
+* Congestion control field - Indicates congestion in the media

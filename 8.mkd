@@ -1,0 +1,43 @@
+The Physical layer controls how data is transmitted on the communication media.
+
+There are three basic forms of network media on which data is represented:
+* Copper cable
+* Fiber
+* Wireless
+
+The three fundamental functions of the Physical layer are:
+* The physical components
+* Data encoding
+* Signaling
+
+Encoding vs signaling:
+* Encoding is a method of converting a stream of data bits into a predefined code. 
+* The Physical layer must generate the electrical, optical, or wireless signals that represent the "1" and "0" on the media. The method of representing the bits is called the signaling method.
+
+
+Advantages using code groups include: 
+* Reducing bit level error
+* Limiting the effective energy transmitted into the media
+* Helping to distinguish data bits from control bits
+* Better media error detection
+
+Forms of networks:
+* wired
+* wireless
+
+Different physical media support the transfer of bits at different speeds. Data transfer can be measured in three ways: 
+* Bandwidth ( Digital bandwidth measures the amount of information that can flow from one place to another in a given amount of time )
+* Throughput ( Throughput is the measure of the transfer of bits across the media over a given period of time. )
+* Goodput ( Goodput is the measure of usable data transferred over a given period of time, and is therefore the measure that is of most interest to network users.  )
+
+Unshielded twisted-pair (UTP) cabling, as it is used in Ethernet LANs, consists of four pairs of color-coded wires that have been twisted together and then encased in a flexible plastic sheath.
+
+The following are main cable types that are obtained by using specific wiring conventions:
+* Ethernet Straight-through ( Connecting a network host to a network device such as a switch or hub. )
+* Ethernet Crossover ( Connecting two network hosts.
+Connecting two network intermediary devices (switch to switch, or router to router).
+* Rollover ( Connect a workstation serial port to a router console port, using an adapter. )
+
+An optical time-domain reflectometer (OTDR) is an optoelectronic instrument used to characterize an optical fiber. An OTDR injects a series of optical pulses into the fiber under test.
+
+A time-domain reflectometer (TDR) is an electronic instrument used to characterize and locate faults in metallic cables (for example, twisted wire pairs, coaxial cables)
