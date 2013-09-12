@@ -1,0 +1,12 @@
+Patchcord length according Cisco can not be greater tham 5m.
+
+10.2.2
+10.2.2/4
+10.2.3
+
+VLSM - varied lan subnet mask
+
+routing - CIDR
+not routing - VLSM
+
+CSU/DSU is always DCE
